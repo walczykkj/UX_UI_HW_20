@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <script src="https://kit.fontawesome.com/6730d82c40.js" crossorigin="anonymous"></script>
+<!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- bootstrap 4 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    </head>
+    <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light customNav">
+        <a class="navbar-brand" href="#"><img src="./images/kw.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Projects<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              </div>
+          </ul>
+        </div>
+      </nav>
+      <!-- End navigation bar -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <div class="container1">
+          <h1 class="jumbo-h1">Vostok-SOS</h1>
+          <img src="./images/case-vostok.png" alt="A cellphone and desktop computer screen displaying a preview of the newly designed Vostok-SOS website">
+        </div>
+          <h3>Overview</h3>
+          <p class="lead">Redesigning the website for Ukranian NGO Vostok-SOS to improve English-speaking user experience and make the donation process easier to use.</p>
+          <h3>My Role</h3>
+          <p class="lead">UX Designer</p>
+        </div>
+      </div>
+      <section class="research">
+<h2>Research</h2>
+<h4>Stakeholder</h4>
+<ul>
+    <li>Goals of English language website vs. original Ukrainian language website are different</li>
+    <li>English website to focus on providing information to inspire donation</li>
+    <li>Would like to to improve donation user flow</li>
+    <li>Generate more traffic from outside Ukraine</li>
+</ul>
+
+<h4>Users</h4>
+<ul>
+    <li>Completed 5 user interviews on Zoom</li>
+    <li>Explored preferences and behaviours when it comes to visiting NGO websites</li>
+    <li>Focused on the donation process and what inspires users to donate since this is the main goal of Vostok-SOS</li>
+</ul>
+
+<div class="flexContainer">
+    <div class="flexChild">
+        <img src="./images/person1.png">
+        <p class="quote">“The donation button was not easy for me to find”</p>
+    </div>
+    <div class="flexChild">
+        <img src="./images/person2.png">
+       <p class="quote">“The navigation on this website is weird and confusing”</p>
+    </div>
+    <div class="flexChild">
+        <img src="./images/person3.png">
+       <p class="quote">“I’d want to know where my money would be used”</p>
+    </div>
+</div>
+
+<h4>User Persona</h4>
+<div class="user-persona-container">
+    <div class="user-persona-img">
+        <img src="./images/persona.png">
+    </div>
+    <div class="user-persona-info">
+        <h5>Name</h5><p>Kevin Lee</p>
+        <h5>Goals</h5><p>Find a reputable local Ukrainian NGO to donate to for humanitarian aid</p>
+        <h5>Frustrations</h5>
+        <ul>
+            <li>Confusing navigation</li>
+            <li>Can’t find where to donate</li>
+            <li>Not translated well into English</li>
+            <li>Unsure where donation would go</li>
+        </ul>
+    </div>
+</div>
+
+      <h2>Definition</h2>
+      <h4>Problem</h4> 
+        <div class="definition-container">
+            <div class="definition-img">
+                <img src="./images/problem-img.png">
+            </div>
+            <p>
+            The current English language version of the Vostok-SOS website was not serving the stakeholder’s intended purpose well – to provide users outside of Ukraine with information about their cause and solicit donations.
+            </p>
+            <p>Our goal was to redesign the homepage for a non-Ukrainian audience, improve navigation and create a clear and easy-to-access call to action for donation</p>
+        </div> 
+        <h2>Ideation</h2>
+        <h4>Feature Prioritization</h4>
+        <div class="ideation-container">
+            <p>After brainstorming with my team using I Like..., I Wish..., What If... as prompts, we prioritized the following features in order to address the problem we found in our user research.</p>
+            <div class="definition-img">
+                <img src="./images/posts.png">
+            </div>
+        </div>
+        <h2>Prototyping</h2>
+        <p>Since the donation user flow was top priority for our stakeholders, we started by improving and simplifying the existing user flow to highlight the most popular donation methods (PayPal and Credit Card) as the first thing users see, while still making other methods accessible in other tabs.</p>
+        <h4>User Flow: Donation</h4>
+        <div class="definition-container">
+          <div class="definition-img">
+        <img src="./images/vostok-sos-wireflow.png">
+          </div>
+          </div>
+<h4>Low to High Fidelity Wireframes: Donation</h4>
+        <div class="container">
+          <div class="row">
+          <div class="col-xl-6 col-lg-6"><img src="./images/donation-iteration1.svg"></div>
+          <div class="col-xl-6 col-lg-6"><img src="./images/donation-iteration2.png"></div>
+        </div>
+        </div>
+<h4>Low to High Fidelity Wireframes: Homepage</h4>
+        <div class="container">
+          <div class="row">
+          <div class="col-xl-6 col-lg-6"><img src="./images/low-fi-desktop.png"></div>
+          <div class="col-xl-6 col-lg-6"><img src="./images/desktop-hi-fi.png"></div>
+        </div>
+        </div>
+   <h2>Testing</h2> 
+   <h4>A/B Testing of Hero Image</h4>
+   <p>We conducted A/B tests to determine which hero image was most impactful to users. The image of the masked soldier had the biggest emotional impact on 90% of users so we decided to lead with this image.</p>
+   <div class="container">
+    <div class="row">
+    <div class="col-xl-12 col-lg-12"><img src="./images/a-b-test.png"></div>
+  </div>
+  </div>
+
+  <h2>Final Prototype</h2> 
+  <h4>Clickable Desktop Prototype</h4>
+  <div class="container">
+   <div class="row">
+   <div class="col-xl-12 col-lg-12"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FVcerh9292YZnHY7eN2swPs%2FNonprofit-Redesign-(Copy)%3Fpage-id%3D461%253A23863%26node-id%3D461%253A23864%26viewport%3D482%252C325%252C0.03%26scaling%3Dscale-down-width%26starting-point-node-id%3D461%253A23864%26show-proto-sidebar%3D1" allowfullscreen></iframe></div>
+ </div>
+ </div>
+
+      </section>
+
+
+<!--footer-->
+      <div class="scroll-up" id="scroll-up">
+        <div class="fa-3x">
+            <i class="fa-solid fa-circle-arrow-up fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; " ></i>
+        </div>
+    </div>
+<footer>
+   <section class="footer-buttons">
+       <ul>
+           <li><button class="footerButton"><img src="./images/linkedin-square.png" alt="LinkedIn icon" width="40px"></button></li>
+           <li><button class="footerButton"><img src="./images/envelope.png" alt="Email envelope icon" width="40px"></button></li>
+       </ul>
+   </section>
+</footer>
+    </body>
+
+</html>
+
+    <!--bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</html>

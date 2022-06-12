@@ -1,0 +1,334 @@
+
+  /* Navigation bar */
+  
+  /* General */
+  .navbar .navbar-expand-lg .navbar-light .bg-light .customNav {
+      background-color: #FFD22E !important;
+  }
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #FFD22E !important;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  nav {
+      background-color: #FFD22E !important;
+  }
+  
+  
+  /* Navigation links */
+  .customNav a {
+    color: black !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+body {
+    font-family: 'Lexend Deca', sans-serif !important;
+}
+
+@counter-style star {
+    system: cyclic;
+    symbols: "\2B50";
+    suffix: " ";
+  }
+
+  .logo {
+    height: 40px;
+    padding: 5px 20px;
+    float: left;
+}
+
+.jumbo-h1 {
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:#000
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+.container1 {
+text-align: center;
+}
+  .container img {
+      max-width: 60%;
+      padding-bottom: 2rem;    
+  }
+
+  .jumbotron {
+      background-color: #e9efec !important;
+  }
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.flexContainer img {
+    height: 200px;
+}
+
+.flexChild {
+    text-align: center;
+}
+
+.flexChild img {
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+.skill-list li {
+    list-style: star;
+    padding-top: 0.3em;
+    }
+
+    .user-persona-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+          grid-gap: 50px;
+          grid-template-areas: "user-persona-img";
+          padding-bottom: 4em;
+        }
+        .user-persona-img {
+            text-align: right;
+        }
+        .user-persona-info {
+            padding-top: 3em;
+        }
+
+        .user-persona-info ul {
+            padding-left: 4%;
+        }
+.definition-img {
+    padding-bottom: 1em;
+    text-align: center;
+}
+.definition-img img {
+    max-width: 100%;
+}
+
+.definition-container {
+    padding-bottom: 2em;
+}
+.research {
+    margin: 5%;
+}
+
+.definition {
+    margin: 5%;
+}
+
+p {
+    font-weight: 300;
+}
+
+ul {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: 500;
+    padding: 3%;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    padding: 2%;
+}
+
+h4 {
+    font-size: 45px;
+    font-weight: 300 !important;
+}
+
+.quote {
+    text-align: center;
+    line-height: 1.3;
+}
+
+ .myWork img {
+     max-width: 400px;
+ }
+
+ .myWork {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "project1 project2"
+    "project3 project4";
+    column-gap: 40px;
+    row-gap: 50px;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    
+}
+
+.col-xl-6{
+  text-align: center;
+}
+
+.col-xl-12 {
+  text-align: center;
+}
+
+.h3-work {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 450;
+}
+
+
+.button {
+    width: 150px;
+    height: 45px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid black;
+    color: #000;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    }
+      
+      .button:hover {
+        background-color: #90AD9E;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+        color: #000000;
+        transform: translateY(-6px);
+      }
+
+      footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        /*border-top: #FFD22E solid;*/
+    }
+
+      .footerButton {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        color: #000;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        }
+
+        .footerButton img {
+            vertical-align: middle;
+        }
+          
+          .footerButton:hover {
+            background-color: #90AD9E;
+            box-shadow: 4px 4px 0px rgba(0, 0, 0, 1);
+            color: #000000;
+            transform: translateY(-6px);
+          }
+
+        
+
+        .footer-buttons li {
+            margin: 0.5rem;
+            float: right;
+            list-style: none
+        }
+
+        .scroll-up {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+        }
+    
+        @media only screen and (max-width: 600px) {
+          .flexContainer {
+              display: flex;
+              flex-direction: column;
+          }
+          .flexChild {
+              width: 100%;
+              justify-content: center;
+          }
+
+          .myWork {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            grid-template-areas: "project1"
+            "project2"
+            "project3" 
+            "project4";
+            column-gap: 40px;
+            row-gap: 50px;
+            justify-content: center;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+        .user-persona-container {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+              grid-gap: 20px;
+              grid-template-areas: "user-persona-img";
+              padding-bottom: 2rem;
+              height: 100%;
+            }
+            .user-persona-img {
+                text-align: center;
+            }
+            .user-persona-info {
+                padding-top: 0;
+            }
+            .user-persona-img img {
+                max-width: 100%;
+                padding-bottom: 0;
+            }
+
+       
+        }
